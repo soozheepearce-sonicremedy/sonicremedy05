@@ -5,12 +5,12 @@ const DEFAULT_APPLE = 'https://music.apple.com/au/artist/soozhee/1569245776';
 const DEFAULT_AMAZON = 'https://amazon.com/music/player/artists/B0967ZGMRT/soozhee';
 
 const PLAYLIST = [
-  { num: 1, title: "Skies", full: "Skies", cover: 'assets/covers/af5-cover-01.jpg', track: 'assets/tracks/af5-01.mp3', page: 'https://skies.vercel.app' },
-  { num: 2, title: "Shay", full: "Shay", cover: 'assets/covers/af5-cover-02.jpg', track: 'assets/tracks/af5-02.mp3', page: 'https://shay.vercel.app' },
-  { num: 3, title: "Shay Darkened", full: "Shay Darkened", cover: 'assets/covers/af5-cover-03.jpg', track: 'assets/tracks/af5-03.mp3', page: 'https://shaydarkened.vercel.app' },
-  { num: 4, title: "City of Gold", full: "City of Gold", cover: 'assets/covers/af5-cover-04.png', track: 'assets/tracks/af5-04.mp3', page: 'https://cityofgold.vercel.app' },
-  { num: 5, title: "City of Gold Alien", full: "City of Gold Alien", cover: 'assets/covers/af5-cover-05.png', track: 'assets/tracks/af5-05.mp3', page: 'https://cityofgoldalien.vercel.app' },
-  { num: 6, title: "Eagle", full: "Eagle", cover: 'assets/covers/af5-cover-06.jpg', track: 'assets/tracks/af5-06.mp3', page: 'https://eagle.vercel.app' }
+  { num: 1, title: "Skies", full: "Skies", cover: 'assets/covers/af5-cover-01.jpg', track: 'assets/tracks/af5-01.mp3', page: 'https://skies-soozhee.vercel.app' },
+  { num: 2, title: "Shay", full: "Shay", cover: 'assets/covers/af5-cover-02.jpg', track: 'assets/tracks/af5-02.mp3', page: 'https://shay-soozhee.vercel.app' },
+  { num: 3, title: "Shay Darkened", full: "Shay Darkened", cover: 'assets/covers/af5-cover-03.jpg', track: 'assets/tracks/af5-03.mp3', page: 'https://shaydarkened-soozhee.vercel.app' },
+  { num: 4, title: "City of Gold", full: "City of Gold", cover: 'assets/covers/af5-cover-04.png', track: 'assets/tracks/af5-04.mp3', page: 'https://cityofgold-soozhee.vercel.app' },
+  { num: 5, title: "City of Gold Alien", full: "City of Gold Alien", cover: 'assets/covers/af5-cover-05.png', track: 'assets/tracks/af5-05.mp3', page: 'https://cityofgoldalien-soozhee.vercel.app' },
+  { num: 6, title: "Eagle", full: "Eagle", cover: 'assets/covers/af5-cover-06.jpg', track: 'assets/tracks/af5-06.mp3', page: 'https://eagle-soozhee.vercel.app' }
 ].map((track) => ({ ...track, spotify: DEFAULT_SPOTIFY, apple: DEFAULT_APPLE, amazon: DEFAULT_AMAZON }));
 
 let currentIndex = 0;
